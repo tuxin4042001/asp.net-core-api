@@ -1,0 +1,27 @@
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\appsettings.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\nude solution.exe
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\nude solution.deps.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\nude solution.runtimeconfig.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\nude solution.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\nude solution.pdb
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.csproj.AssemblyReference.cache
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.AssemblyInfoInputs.cache
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.AssemblyInfo.cs
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.csproj.CoreCompileInputs.cache
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\scopedcss\bundle\nude solution.styles.css
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.csproj.CopyComplete
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\refint\nude solution.dll
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.pdb
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\nude solution.genruntimeconfig.cache
+C:\Users\terry00\projects\13.asp.net-core-api\nude solution\nude solution\obj\Debug\net6.0\ref\nude solution.dll
