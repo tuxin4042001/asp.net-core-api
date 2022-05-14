@@ -92,7 +92,7 @@ namespace nude_solution.Controllers
             _context.Items.Add(item);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item);
+            return CreatedAtAction("GetItem", new { id = item.Id }, item);
         }
 
         // DELETE: api/Items/5

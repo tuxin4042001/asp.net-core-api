@@ -1,0 +1,84 @@
+<div class="container mt-10 mb-10">
+  <form class="mt-5 mb-5" [formGroup]="newItem" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="form-group col-md-3">
+        <label for="item-name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="item-name"
+          placeholder="Name"
+          formControlName="name"
+        />
+      </div>
+      <div class="form-group col-md-3">
+        <label for="item-price">Price</label>
+        <input
+          type="number"
+          class="form-control"
+          id="item-price"
+          placeholder="Price"
+          formControlName="value"
+        />
+      </div>
+      <div class="form-group col-md-3">
+        <label for="item-category">Category</label>
+        <select
+          id="item-category"
+          class="form-control"
+          formControlName="category"
+        >
+          <option *ngFor="let category of categories" [value]="category.id">
+            {{ category.name }}
+          </option>
+        </select>
+      </div>
+      <div class="form-group col-md-3 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary form-control">Add</button>
+      </div>
+    </div>
+  </form>
+  <div
+    class="card mt-5 mb-5"
+    *ngFor="let category of itemsAfterCategory | keyvalue"
+  >
+    <div class="card-body">
+      <h5 class="card-title d-flex justify-content-start">
+        <span class="mr-10"
+          >{{ category.key | idToCategory: this.categories }}
+        </span>
+        <span> {{ category.value | categorySum | currency: "CAD" }}</span>
+      </h5>
+      <div class="card-text d-flex justify-content-between">
+        <span>Name</span>
+        <span>Value</span>
+        <span>Category</span>
+        <span></span>
+      </div>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li
+        class="list-group-item d-flex justify-content-between"
+        *ngFor="let item of category.value"
+      >
+        <span>{{ item.name }}</span>
+        <span>{{ item.value | currency: "CAD" }}</span>
+        <span>{{
+          item.category.toString() | idToCategory: this.categories
+        }}</span>
+        <span
+          ><button
+            type="button"
+            class="btn btn-danger"
+            (click)="deleteItem(item.id)"
+          >
+            <i class="fa fa-trash"></i></button
+        ></span>
+      </li>
+    </ul>
+  </div>
+  <h4 class="total d-flex justify-content-end">
+    <span>Total</span>
+    <span>{{ this.items | categorySum | currency: "CAD" }}</span>
+  </h4>
+</div>

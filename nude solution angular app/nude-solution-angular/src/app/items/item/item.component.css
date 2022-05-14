@@ -1,0 +1,26 @@
+div.container div.card div.card-body h5.card-title span {
+    flex-basis: 1 1 auto;
+    width: 200px;
+}
+
+div.container div.card div.card-body div.card-text span {
+    flex-basis: 1 1 auto;
+    width: 100px;
+}
+
+div.container div.card ul.list-group li.list-group-item:nth-child(even) {
+    background-color: lightgray
+}
+
+div.container div.card ul.list-group li.list-group-item span {
+    flex-basis: 1 1 auto;
+    width: 100px;
+}
+
+h4.total {
+    margin-bottom: 50px;
+}
+
+h4.total span:first-child {
+    margin-right: 50px;
+}
